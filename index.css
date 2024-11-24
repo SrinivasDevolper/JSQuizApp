@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-image: linear-gradient(to right top, #ffffff, #f8f8fe, #eef1fe, #e3ebfe, #d6e6fd);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    min-height: 300px;
+    width: 400px;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.cardsecond {
+    background-color: #ffffff;
+    min-height: 80px;
+    width: 400px;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.question {
+    font-family: "Roboto";
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.un-ordered {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.list-style {
+    list-style: none;
+    font-size: 18px;
+    font-family: "Roboto";
+    padding-bottom: 16px;
+}
+
+.list-style label {
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.button {
+    width: 100%;
+    padding: 13px;
+    background-color: #176B87;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #053B50;
+}
+
+.button:focus {
+    background-color: #64CCC5;
+}
